@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import {styles} from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useMediaQuery } from 'react-responsive';
 import { useTypewriter, Cursor } from "react-simple-typewriter"; 
 
 const Hero = () => {
@@ -11,6 +12,8 @@ const Hero = () => {
     typeSpeed: 120,
     deleteSpeed: 80,
   })
+
+  const isDesktop = useMediaQuery({ minDeviceWidth: 768 });
 
 
   return (
@@ -40,7 +43,7 @@ const Hero = () => {
 
       </div>
 
-      <ComputersCanvas/>
+      {isDesktop && <ComputersCanvas/>}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#SobreMi">
