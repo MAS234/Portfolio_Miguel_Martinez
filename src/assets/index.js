@@ -1,5 +1,4 @@
 //HERRAMIENTAS
-import logo from "./logo.png";
 import icono from "./icono.png"
 import frontend from "./frontend.png"
 import desing from "./desing.png";
@@ -46,7 +45,6 @@ import crazyBeer from "./crazyBeer.png"
 import hoddie from "./hoddie.png"
 
 export {
-  logo,
   frontend,
   desing,
   react,
