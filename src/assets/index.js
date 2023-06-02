@@ -47,6 +47,7 @@ import hoddie from "./hoddie.png"
 //Contacto
 import linkedin from "./linkedin.png"
 import email from "./email.png"
+import curriculum from "./curriculum.png"
 
 export {
   frontend,
@@ -87,4 +88,5 @@ export {
   icono,
   linkedin,
   email,
+  curriculum
 };
