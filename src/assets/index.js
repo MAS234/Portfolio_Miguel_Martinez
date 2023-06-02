@@ -88,5 +88,5 @@ export {
   icono,
   cv,
   linkedin,
-  email
+  email,
 };
