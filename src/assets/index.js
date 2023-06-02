@@ -44,6 +44,11 @@ import bilingual from "./fondo-bilingual.png"
 import crazyBeer from "./crazyBeer.png"
 import hoddie from "./hoddie.png"
 
+//Contacto
+import linkedin from "./linkedin.png"
+import email from "./email.png"
+import cv from "./cv.png"
+
 export {
   frontend,
   desing,
@@ -80,5 +85,8 @@ export {
   bilingual,
   crazyBeer,
   hoddie,
-  icono
+  icono,
+  cv,
+  linkedin,
+  email
 };
