@@ -95,7 +95,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span
               className={`${
-                verificar ? "text-red-600" : "text-white"
+                verificar  ? "text-red-600" : "text-white"
               } font-medium mb-4`}
             >{`${
               verificar ? "Complete el campo con su nombre" : "Nombre"
