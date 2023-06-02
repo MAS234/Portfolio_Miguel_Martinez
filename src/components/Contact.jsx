@@ -169,7 +169,7 @@ const Contact = () => {
           <a href="https://github.com/MAS234" target="_blanck">
             <img src={github} alt="github" className="w-16 h-16 hover:bg-[#4cf839] duration-300 rounded-lg p-1" />
           </a>
-          <p>Email</p>
+          <p>Github</p>
           </div>
 
           <div className="justify-center items-center flex flex-col">
