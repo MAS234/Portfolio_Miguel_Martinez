@@ -140,9 +140,9 @@ import {
       iconBg: "#0FC7F9",
       date: "2022",
       points: [
-        "Desarrollo y maquetacion.",
+        "Desarrollo y maquetación.",
         "Consume un API que proporciona en tiempo real los diferentes climas de distintas partes del mundo.",
-        "La aplicacion utiliza React | Vite | Tailwind | Node ",
+        "La aplicación utiliza React | Vite | Tailwind | Node ",
       ],
     },
     {
@@ -167,7 +167,7 @@ import {
       points: [
         "Desarrollo de soluciones para distintas empresas.",
         "Desempeño el rol de frontend developer.",
-        "Implementacion de metodologia agiles, buena comunicacion y constante aprendizaje,",
+        "Implementación de metodologías agiles, buena comunicación y constante aprendizaje,",
         "Trabajo en equipo.",
       ],
     },
@@ -177,7 +177,7 @@ import {
     {
       name: "Bilingual Rabbit",
       description:
-        "Es un diseño de una aplicación y sitio web adaptable. Una aplicación la cual consiste en proponer una forma de estudio en que el usuario pueda ir a su propio ritmo y que se sienta cómodo aprendiendo, la aplicación cuenta con distintos idiomas, también con incentivos o recompensas. Dejo abajo el link a la pagina del diseño y la prueba en Figma.",
+      "Es un diseño de una aplicación y sitio web adaptable. Una aplicación la cual consiste en proponer una forma de estudio en que el usuario pueda ir a su propio ritmo y que se sienta cómodo aprendiendo, la aplicación cuenta con distintos idiomas, también con incentivos o recompensas. Dejo abajo el link a la página del diseño y la prueba en Figma.",
       tags: [
         {
           name: "Figma",
@@ -222,7 +222,7 @@ import {
     {
       name: "JIMO",
       description:
-        "JIMO-OFIICIAL es una sitio web desarrollado para un comercio familiar, es un onepage que provee información sobre los productos que ofrecen en el establecimiento y habla sobre su emprendimiento. Te invito a visitar el sitio web y el codigo.",
+      "JIMO-OFIICIAL es una sitio web desarrollado para un comercio familiar, es un onepage que provee información sobre los productos que ofrecen en el establecimiento y habla sobre su emprendimiento. Te invito a visitar el sitio web y el código.",
       tags: [
         {
           name: "react",
@@ -240,7 +240,7 @@ import {
     {
       name: "Control de Gastos",
       description:
-        "La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro.La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica.",
+      "La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro. La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica.",
       tags: [
         {
           name: "react",
@@ -259,7 +259,7 @@ import {
     {
       name: "Aplicacion Del Clima",
       description:
-        "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima.Te invito a visitar la aplicación  y el codigo.",
+      "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima.Te invito a visitar la aplicación  y el código.",
       tags: [
         {
           name: "react",
@@ -282,7 +282,7 @@ import {
     {
       name: "Veterinaria-Registro de Pacientes",
       description:
-        "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación con tematica a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente.Te invito a visitar la aplicación  y el codigo.",
+      "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación con temática a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente.Te invito a visitar la aplicación  y el código.",
       tags: [
         {
           name: "React",
@@ -305,7 +305,7 @@ import {
     {
       name: "Cotizador de Criptomonedas",
       description:
-        "Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Te invito a visitar la aplicación  y el codigo.",
+      "Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Te invito a visitar la aplicación  y el código.",
       tags: [
         {
           name: "react",
