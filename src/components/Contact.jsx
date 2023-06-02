@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { cv, linkedin, email } from "../assets/index";
+import { linkedin, email } from "../assets/index";
 
 const Contact = () => {
   const formRef = useRef();
@@ -172,12 +172,7 @@ const Contact = () => {
           <p>Email</p>
           </div>
 
-          <div className="justify-center items-center flex flex-col">
-          <a href="https://drive.google.com/file/d/1OQTSE7rHHhqLdi-ZrHqHVJgEX7SGDSG0/view?usp=sharing" target="_blanck">
-            <img src={cv} alt="cv" className="w-16 h-16 hover:bg-[#4cf839] duration-300 rounded-lg p-1" />
-          </a>
-          <p>CV</p>
-          </div>
+
 
         </div>
 

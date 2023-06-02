@@ -47,7 +47,6 @@ import hoddie from "./hoddie.png"
 //Contacto
 import linkedin from "./linkedin.png"
 import email from "./email.png"
-import cv from "./cv.png"
 
 export {
   frontend,
@@ -86,7 +85,6 @@ export {
   crazyBeer,
   hoddie,
   icono,
-  cv,
   linkedin,
   email,
 };
