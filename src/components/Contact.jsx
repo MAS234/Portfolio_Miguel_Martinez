@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { curriculum, linkedin, email } from "../assets/index";
+import { curriculum, linkedin, github } from "../assets/index";
 
 const Contact = () => {
   const formRef = useRef();
@@ -166,8 +166,8 @@ const Contact = () => {
           </div>
 
           <div className="justify-center items-center flex flex-col">
-          <a href="mailto:miguel.martinez.angel.salazar@gmail.com" target="_blanck">
-            <img src={email} alt="email" className="w-16 h-16 hover:bg-[#4cf839] duration-300 rounded-lg p-1" />
+          <a href="https://github.com/MAS234" target="_blanck">
+            <img src={github} alt="github" className="w-16 h-16 hover:bg-[#4cf839] duration-300 rounded-lg p-1" />
           </a>
           <p>Email</p>
           </div>
