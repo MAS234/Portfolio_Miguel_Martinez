@@ -12,7 +12,7 @@ const Ball = (props) => {
 
   return (
     <Float
-    speed={1.76} rotationIntensity={1} floatIntensity={5}
+    speed={1.76} rotationIntensity={1} floatIntensity={2}
     >
       <ambientLight intensity={0.9}/>
       <directionalLight position={[0,0,0.05]}/>
