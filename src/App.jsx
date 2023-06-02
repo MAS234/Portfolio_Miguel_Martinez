@@ -1,9 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
+
 
 import {About, Works, Contact, Hero, Experience, Navbar, Tech, StarsCanvas, DiseñoProyectos } from "./components"
 
 
 const App = () => {
+
+  const isDesktop = useMediaQuery({ minDeviceWidth: 768 });
+
 
   return (
     <BrowserRouter>
@@ -14,7 +19,7 @@ const App = () => {
       </div>
       <About/>
       <Experience/>
-      <Tech/>
+      {isDesktop && <Tech/>}
       <Works/>
       <DiseñoProyectos/>
       <div className="relative z-0">
