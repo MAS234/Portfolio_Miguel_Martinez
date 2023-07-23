@@ -38,6 +38,7 @@ import planificadorGastos from "./app-gastos.png"
 import climaApp from "./Clima.png"
 import veterinaria from "./veterinaria.png"
 import cripto from "./cripto.png"
+import HoddieP from "./hoddie-Portada.png"
 
 //DISEÑO
 import bilingual from "./fondo-bilingual.png"
@@ -88,5 +89,6 @@ export {
   icono,
   linkedin,
   email,
-  curriculum
+  curriculum,
+  HoddieP
 };

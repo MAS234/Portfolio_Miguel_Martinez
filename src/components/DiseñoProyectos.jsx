@@ -26,7 +26,7 @@ function DiseñoProyectos() {
     
         </div>
     
-        <div className="mt-20 flex flex-wrap gap-7">
+        <div className="mt-20 flex flex-wrap gap-5">
           {projectsDesing.map((projects, index) => (
             <DiseñoCard   
             key={`project-${index}`}

@@ -27,7 +27,8 @@ import {
     cripto,
     bilingual,
     crazyBeer,
-    hoddie
+    hoddie,
+    HoddieP
   } from "../assets";
   
   export const navLinks = [
@@ -163,7 +164,7 @@ import {
       company_name: "Daira It Groups",
       icon: daira,
       iconBg: "#E6DEDD",
-      date: "2023 - Presente",
+      date: "Abril 2023 - Julio 2023",
       points: [
         "Desarrollo de soluciones para distintas empresas.",
         "Desempeño el rol de frontend developer.",
@@ -219,6 +220,28 @@ import {
   ]
   
   const projects = [
+    {
+      name: "HODDIE-DESING",
+      description:
+      "HODDIE-DESING es un proyecto personal, diseñado y desarrollado por mi, es una tienda personalizada, con diseños exclusivos. Cuenta con una interfaz dinamica, carrito de compras, cards de productos y mucha creatividad.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: HoddieP,
+      source_code_link: "https://github.com/MAS234/Hoddie-Desing",
+      vista_code: "https://hoddie-desing.vercel.app/"
+    },
     {
       name: "JIMO",
       description:

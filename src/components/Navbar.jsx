@@ -11,7 +11,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-1 fixed top-0 z-20 bg-primary`}>
 
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto ">
         <Link 
@@ -22,7 +22,7 @@ const Navbar = () => {
           window.scrollTo(0,0);
         }}
         >
-        <img src={icono} alt="logo" className="w-20 h-20 object-contain "/>
+        <img src={icono} alt="logo" className="w-16 h-16 object-contain "/>
         <p className="text-white text-[18px] font-bold cursor-pointer flex">Miguel &nbsp;  <span className="sm:block hidden text-[#4cf839]"> | Frontend Developer</span></p>
         </Link>
 
