@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 
 
-import {About, Works, Contact, Hero, Experience, Navbar, Tech, StarsCanvas, DiseñoProyectos } from "./components"
+import {About, Contact, Hero, Experience, Navbar, Tech, StarsCanvas, DiseñoProyectos, TrabajosM } from "./components"
 
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <About/>
       <Experience/>
-      <Works/>
+      <TrabajosM/>
       <DiseñoProyectos/>
       {isDesktop && <Tech/>}
       <div className="relative z-0">
