@@ -17,11 +17,17 @@ const App = () => {
         <Navbar/>
         <Hero/>
       </div>
+
       <About/>
       <Experience/>
       <TrabajosM/>
       <DiseñoProyectos/>
+      {/* <Colaboraciones/> */}
       {isDesktop && <Tech/>}
+
+
+    
+
       <div className="relative z-0">
         <Contact/>
         <StarsCanvas/>
@@ -33,14 +39,3 @@ const App = () => {
 
 export default App
 
-//Sprints de proceso
-// 1 sprint
-// MIN 33:39 DEL PROYECTO 
-//2 sprint
-//Min 1:07:00 del Proyecto
-//3 sprint
-//Min 1:35:03
-//4 sprint
-//Min 2:00:00
-//5 sprint
-//Min 2:43:00

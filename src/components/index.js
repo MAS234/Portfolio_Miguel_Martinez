@@ -7,6 +7,7 @@ import Experience from './Experience';
 import DiseñoProyectos from "./DiseñoProyectos"
 import Contact from './Contact';
 import TrabajosM from './Trabajos';
+import Colaboraciones from './Colaboraciones';
 
 export {
   Hero,
@@ -20,6 +21,7 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  TrabajosM
+  TrabajosM,
+  Colaboraciones
   
 }

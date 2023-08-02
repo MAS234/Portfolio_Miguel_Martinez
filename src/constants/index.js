@@ -240,8 +240,8 @@ import {
         }
       ],
       image: HoddieP,
-      source_code_link: "https://github.com/MAS234/Hoddie-Desing",
-      vista_code: "https://hoddie-desing.vercel.app/"
+      source_code_link: "https://hoddie-desing.vercel.app/",
+      vista_code: "https://github.com/MAS234/Hoddie-Desing"
     },
     {
       name: "JIMO",
@@ -258,8 +258,8 @@ import {
         },
       ],
       image: jimoImagen,
-      source_code_link: "https://github.com/MAS234/JIMO-OFICIAL",
-      vista_code: "https://jimo-oficial.vercel.app/"
+      source_code_link: "https://jimo-oficial.vercel.app/",
+      vista_code: "https://github.com/MAS234/JIMO-OFICIAL"
     },
     {
       name: "Control de Gastos",
@@ -276,8 +276,8 @@ import {
         },
       ],
       image: planificadorGastos,
-      source_code_link: "https://github.com/MAS234/AppDeGastos",
-      vista_code: "https://control-de-gastos-phi.vercel.app/"
+      source_code_link: "https://control-de-gastos-phi.vercel.app/",
+      vista_code: "https://github.com/MAS234/AppDeGastos"
 
     },
     {
@@ -299,8 +299,8 @@ import {
         },
       ],
       image: climaApp,
-      source_code_link: "https://github.com/MAS234/ClimaApp",
-      vista_code: "https://clima-app-peach.vercel.app/"
+      source_code_link: "https://clima-app-peach.vercel.app/",
+      vista_code: "https://github.com/MAS234/ClimaApp"
 
     },
     {
@@ -322,8 +322,8 @@ import {
         },
       ],
       image: veterinaria,
-      source_code_link: "https://github.com/MAS234/RegistroClientes-Veterinaria",
-      vista_code: "https://registro-clientes-veterinaria.vercel.app/"
+      source_code_link: "https://registro-clientes-veterinaria.vercel.app/",
+      vista_code: "https://github.com/MAS234/RegistroClientes-Veterinaria"
 
     },
     {
@@ -345,8 +345,8 @@ import {
         },
       ],
       image: cripto,
-      source_code_link: "https://github.com/MAS234/CotizadorCriptomonedas-react",
-      vista_code: "https://cotizador-criptomonedas-react-tau.vercel.app/"
+      source_code_link: "https://cotizador-criptomonedas-react-tau.vercel.app/",
+      vista_code: "https://github.com/MAS234/CotizadorCriptomonedas-react"
 
     },
   ];
