@@ -28,7 +28,8 @@ import {
     bilingual,
     crazyBeer,
     hoddie,
-    HoddieP
+    HoddieP,
+  
   } from "../assets";
   
   export const navLinks = [

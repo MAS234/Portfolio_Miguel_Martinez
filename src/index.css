@@ -126,6 +126,40 @@
   transform: translateZ(0);
 }
 
+
+/* ANIMACION DE CELU  */
+/* Estilos para la imagen flotante */
+.floating-image {
+  width: 300px; /* Ajusta el tamaño según tus necesidades */
+  animation: floatingAnimation 2s infinite; /* Animación infinita */
+  transition: transform 0.2s ease-in-out; /* Transición suave de transformación */
+}
+
+/* Definición de la animación de flotación */
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* El valor negativo hace que la imagen suba */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.sombraBilletera{
+  filter: drop-shadow(8px 10px 7px #8c8c8c7d);
+  transition: .5s ease;
+
+}
+.sombraBilletera:hover{
+  filter: drop-shadow(8px 10px 7px #5ff64fa6);
+  transition: .5s ease;
+}
+
+
+
 @keyframes mulShdSpin {
   0%,
   100% {

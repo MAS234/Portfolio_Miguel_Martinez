@@ -50,6 +50,9 @@ import linkedin from "./linkedin.png"
 import email from "./email.png"
 import curriculum from "./curriculum.png"
 
+//Billetera
+import billetera  from "../assets/billetera.png"
+
 export {
   frontend,
   desing,
@@ -90,5 +93,6 @@ export {
   linkedin,
   email,
   curriculum,
-  HoddieP
+  HoddieP,
+  billetera
 };

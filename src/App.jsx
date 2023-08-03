@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 
 
-import {About, Contact, Hero, Experience, Navbar, Tech, StarsCanvas, DiseñoProyectos, TrabajosM } from "./components"
+import {About, Contact, Hero, Experience, Navbar, Tech, StarsCanvas, DiseñoProyectos, TrabajosM, Colaboraciones } from "./components"
 
 
 const App = () => {
@@ -21,8 +21,8 @@ const App = () => {
       <About/>
       <Experience/>
       <TrabajosM/>
+      <Colaboraciones/>
       <DiseñoProyectos/>
-      {/* <Colaboraciones/> */}
       {isDesktop && <Tech/>}
 
 
