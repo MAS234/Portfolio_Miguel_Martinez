@@ -44,18 +44,19 @@ function Colaboraciones() {
           </div>
 
           <div className="mt-5">
-            <button
-              className="bg-[#29b519] hover:bg-[#1b8010]  duration-150 p-1 w-32 rounded-lg font-bold flex items-center justify-evenly "
-              onClick={() =>
-                window.open(
-                  "https://github.com/No-Country/c12-31-ft-node-react",
-                  "_blank"
-                )
-              }
-            >
-              GITHUB
-              <img src={github} alt="github" className="w-8" />
-            </button>
+
+          <button className="bg-[#29b519] text-white border border-green-400 border-b-4 font-medium overflow-hidden flex items-center justify-evenly relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group"
+          onClick={() =>
+            window.open(
+              "https://github.com/No-Country/c12-31-ft-node-react",
+              "_blank"
+            )
+          }
+          >
+          <span className="bg-white border-green-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+          GITHUB
+          <img src={github} alt="github" className="w-8" />
+        </button>
           </div>
         </div>
 
