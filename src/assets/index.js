@@ -1,5 +1,5 @@
 //HERRAMIENTAS
-import icono from "./icono.png"
+import icono from "./icono2.png"
 import frontend from "./frontend.png"
 import desing from "./desing.png";
 import react from "./react.png"
