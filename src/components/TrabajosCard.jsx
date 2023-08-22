@@ -14,7 +14,7 @@ function TrabajosCard({index, name, tags, image, source_code_link, description, 
           scale:1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] min-w-full"
+        className="blurred-background p-5 rounded-2xl sm:w-[360px] min-w-full"
         >
           <div className="relative w-full h-[230px]">
             <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />

@@ -127,6 +127,30 @@
 }
 
 
+
+
+/* FONDO CARS  */
+.blurred-background {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255,255,255,0));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: .5s ease;
+
+}
+
+.blurred-background:hover{
+  backdrop-filter: blur(0px);
+  transition: .5s ease;
+
+}
+
+.fondoTaza{
+  background-image: url("assets/fondoTaza.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* ANIMACION DE CELU  */
 /* Estilos para la imagen flotante */
 .floating-image {

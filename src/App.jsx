@@ -18,6 +18,7 @@ const App = () => {
         <Hero/>
       </div>
 
+      <div className="fondoTaza">
       <About/>
       <Experience/>
       <TrabajosM/>
@@ -26,6 +27,7 @@ const App = () => {
       {isDesktop && <Tech/>}
 
 
+      </div>
     
 
       <div className="relative z-0">

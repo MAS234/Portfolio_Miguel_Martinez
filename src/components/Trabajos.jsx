@@ -30,6 +30,7 @@ function Trabajos() {
 
     return (
         <>
+        <div >
         <motion.div
         variants={textVariant()}
         >
@@ -52,6 +53,7 @@ function Trabajos() {
             <TrabajosCard key={`project-${index}`} index={index} {...project} />
           ))}
     
+        </div>
         </div>
         </>
       )
