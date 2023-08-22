@@ -149,6 +149,32 @@
 }
 
 /* ANIMACION DE CELU  */
+
+.floating-astro{
+  animation: floating-astro 3s infinite; 
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(8px 10px 7px #d9d7d77d);
+  transition: .5s ease;
+
+}
+
+.floating-astro:hover{
+  filter: drop-shadow(8px 10px 7px #5ff64fa6);
+  transition: .5s ease;
+}
+
+@keyframes floating-astro {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* El valor negativo hace que la imagen suba */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* Estilos para la imagen flotante */
 .floating-image {
    /* Ajusta el tamaño según tus necesidades */
