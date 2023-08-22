@@ -3,6 +3,7 @@ import {styles} from "../styles";
 // import { ComputersCanvas } from "./canvas";
 // import { useMediaQuery } from 'react-responsive';
 import { useTypewriter, Cursor } from "react-simple-typewriter"; 
+import { astronauta } from "../assets";
 
 const Hero = () => {
 
@@ -66,6 +67,10 @@ const Hero = () => {
             />
           </div>
         </a>
+      </div>
+
+      <div className="flex justify-end   ">
+        <img src={astronauta} alt="astronauta" className=" floating-image w-20 m-5 md:mr-20 md:w-36 md:mt-96 mt-[115%] "/>
       </div>
       
     </section>

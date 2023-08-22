@@ -53,6 +53,9 @@ import curriculum from "./curriculum.png"
 //Billetera
 import billetera  from "../assets/billetera.png"
 
+//ASTRONAUTA
+import astronauta from "../assets/Astronauta.png"
+
 export {
   frontend,
   desing,
@@ -94,5 +97,6 @@ export {
   email,
   curriculum,
   HoddieP,
-  billetera
+  billetera,
+  astronauta
 };

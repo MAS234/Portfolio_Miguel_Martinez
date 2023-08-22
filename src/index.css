@@ -126,9 +126,6 @@
   transform: translateZ(0);
 }
 
-
-
-
 /* FONDO CARS  */
 .blurred-background {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255,255,255,0));
@@ -154,7 +151,7 @@
 /* ANIMACION DE CELU  */
 /* Estilos para la imagen flotante */
 .floating-image {
-  width: 300px; /* Ajusta el tamaño según tus necesidades */
+   /* Ajusta el tamaño según tus necesidades */
   animation: floatingAnimation 2s infinite; /* Animación infinita */
   transition: transform 0.2s ease-in-out; /* Transición suave de transformación */
 }
