@@ -79,10 +79,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse justify-center flex gap-10 overflow-hidden ">
+    <div className=" xl:flex-row flex-col-reverse justify-center flex gap-10 overflow-hidden ">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.75] blurred-background shadow-xl shadow-[#4cf839] p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Ponerse en contacto</p>
         <h3 className={styles.sectionHeadText}>Contacto</h3>
@@ -90,7 +90,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handletSummit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-5 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span
@@ -106,7 +106,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="¿Cual es su nombre?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium"
+              className="blurred-background py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium "
             />
           </label>
 
@@ -124,7 +124,7 @@ const Contact = () => {
               onChange={handleChange}
               value={form.email}
               placeholder="¿Cual es su email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium"
+              className="blurred-background  py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium"
             />
           </label>
 
@@ -142,13 +142,13 @@ const Contact = () => {
               onChange={handleChange}
               value={form.mensaje}
               placeholder="Escriba su mensaje"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium"
+              className="blurred-background py-4 px-6 placeholder:text-secondary text-[#4cf839] rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-[#4cf839] hover:text-tertiary duration-300"
+            className="blurred-background py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-[#4cf839] hover:text-tertiary duration-300"
           >
             {loading ? "Enviando.." : "Enviar"}
           </button>
