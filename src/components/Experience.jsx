@@ -12,8 +12,8 @@ import PropTypes from "prop-types"
 const ExperienceCard = ({ experience }) => (
 
   <VerticalTimelineElement
-  contentStyle={{background: "#1d1836", color:"#4cf839"}}
-  contentArrowStyle={{borderRight:"7px solid #232631"}}
+  contentStyle={{background: "#0000008e", color:"#ffffff"}}
+  contentArrowStyle={{borderRight:"7px solid #0000008e"}}
   date={experience.date}
   iconStyle={{background: experience.iconBg}}
   icon={
@@ -71,7 +71,8 @@ const Experience = () => {
     </motion.div>
 
     <div className="mt-20 flex flex-col">
-      <VerticalTimeline>
+      <VerticalTimeline
+      >
       {experiences.map((experience, index) => (
         //se llama al componente de experiencia y se le pasan los props necesarios
             <ExperienceCard

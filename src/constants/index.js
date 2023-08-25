@@ -15,7 +15,6 @@ import {
     figma,
     daira,
     gastos,
-    clima,
     jimo,
     jimoImagen,
     planificadorGastos,
@@ -29,6 +28,7 @@ import {
     crazyBeer,
     hoddie,
     HoddieP,
+    LogoBilletera
   
   } from "../assets";
   
@@ -136,18 +136,6 @@ import {
       ],
     },
     {
-      title: "React Developer",
-      company_name: "Aplicacion Clima",
-      icon: clima,
-      iconBg: "#0FC7F9",
-      date: "2022",
-      points: [
-        "Desarrollo y maquetación.",
-        "Consume un API que proporciona en tiempo real los diferentes climas de distintas partes del mundo.",
-        "La aplicación utiliza React | Vite | Tailwind | Node ",
-      ],
-    },
-    {
       title: "Web Developer",
       company_name: "JIMO",
       icon: jimo,
@@ -171,6 +159,19 @@ import {
         "Desempeño el rol de frontend developer.",
         "Implementación de metodologías agiles, buena comunicación y constante aprendizaje,",
         "Trabajo en equipo.",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "No Country",
+      icon: LogoBilletera,
+      iconBg: "#F98434",
+      date: "Julio 2023 - Agosto 2023",
+      points: [
+        "Desarrollo de distintas pantallas de la aplicación",
+        "Trabajo con librerías y componentes",
+        "Implementación de metodología agil en su desarrollo(SCRUM)",
+        "Trabajo en equipo multicultural y buena comunicación",
       ],
     },
   ];
