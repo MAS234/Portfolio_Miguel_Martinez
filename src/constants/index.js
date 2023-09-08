@@ -22,13 +22,13 @@ import {
     next,
     vite,
     sass,
-    veterinaria,
     cripto,
     bilingual,
     crazyBeer,
     hoddie,
     HoddieP,
-    LogoBilletera
+    LogoBilletera,
+    mmGoal
   
   } from "../assets";
   
@@ -224,6 +224,36 @@ import {
   
   const projects = [
     {
+      name: "MM-GOAL",
+      description:
+      "MMGOAL es una aplicación diseñada para los amantes del fútbol que desean estar al tanto de los últimos acontecimientos en el mundo del fútbol, obtener información detallada sobre los partidos y tener la opción de registrarse para una experiencia más personalizada. ACTUALMENTE SIGUE EN DESARROLLO",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        }
+      ],
+      image: mmGoal,
+      source_code_link: "/",
+      vista_code: "https://github.com/MAS234/MMFutbol"
+    },
+    {
       name: "HODDIE-DESING",
       description:
       "HODDIE-DESING es un proyecto personal, diseñado y desarrollado por mi, es una tienda personalizada, con diseños exclusivos. Cuenta con una interfaz dinamica, carrito de compras, cards de productos y mucha creatividad.",
@@ -303,29 +333,6 @@ import {
       image: climaApp,
       source_code_link: "https://clima-app-peach.vercel.app/",
       vista_code: "https://github.com/MAS234/ClimaApp"
-
-    },
-    {
-      name: "Veterinaria-Registro de Pacientes",
-      description:
-      "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación con temática a una veterinaria. Tiene opciones de agregar pacientes, editar la información de los pacientes y por ultimo eliminar algún paciente.Te invito a visitar la aplicación  y el código.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "node",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: veterinaria,
-      source_code_link: "https://registro-clientes-veterinaria.vercel.app/",
-      vista_code: "https://github.com/MAS234/RegistroClientes-Veterinaria"
 
     },
     {

@@ -54,6 +54,9 @@ import curriculum from "./curriculum.png"
 import billetera  from "../assets/billetera.png"
 import LogoBilletera from "../assets/company/logoCountry.png"
 
+//MMGOAL
+import mmGoal from "../assets/MMGOAL.png"
+
 //ASTRONAUTA
 import astronauta from "../assets/Astronauta.png"
 
@@ -100,5 +103,6 @@ export {
   HoddieP,
   billetera,
   astronauta,
-  LogoBilletera
+  LogoBilletera,
+  mmGoal
 };
