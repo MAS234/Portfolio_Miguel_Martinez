@@ -20,9 +20,9 @@ const App = () => {
 
       <div className="fondoTaza">
       <About/>
-      <Experience/>
-      <TrabajosM/>
       <Colaboraciones/>
+      <TrabajosM/>
+      <Experience/>
       <DiseñoProyectos/>
       {isDesktop && <Tech/>}
 

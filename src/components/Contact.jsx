@@ -79,7 +79,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" xl:flex-row flex-col-reverse justify-center flex gap-10 overflow-hidden ">
+    <div className=" xl:flex-row flex-col-reverse justify-center flex gap-10 overflow-hidden m-auto md:w-[80%] h-[90%]">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] blurred-background shadow-xl shadow-[#4cf839] p-8 rounded-2xl"
