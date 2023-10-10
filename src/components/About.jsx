@@ -54,7 +54,7 @@ const About = () => {
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-    Soy un desarrollador que siempre en busca de nuevas habilidades para mejorar cada vez más. Actualmente me especializo en el área del Frontend. Me encanta el diseño, el maquetado y brindar a los usuarios una experiencia excepcional asegurándome de que el sitio o aplicación funcione de manera óptima. Siempre estoy buscando formas de aprender, porque creo que nunca se termina de crecer en este campo tan dinámico y emocionante.
+    Soy un desarrollador que siempre busca nuevas habilidades para mejorar cada vez más. Actualmente me especializo en el área del Frontend. Me encanta el diseño, el maquetado y brindar a los usuarios una experiencia excepcional asegurándome de que el sitio o aplicación funcione de manera óptima. Siempre estoy buscando formas de aprender, porque creo que nunca se termina de crecer en este campo tan dinámico y emocionante.
     </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10">
