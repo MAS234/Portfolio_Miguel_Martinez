@@ -173,7 +173,7 @@ const Contact = () => {
           </div>
 
           <div className="justify-center items-center flex flex-col">
-          <a href="https://drive.google.com/file/d/1gvSDorU2dI8JhChpbQrFrNwFN260lqV2/view?usp=sharing" target="_blanck">
+          <a href="https://drive.google.com/file/d/1XijZ1O91qsGfeU26H7reghsxRjmk5wr1/view?usp=sharing" target="_blanck">
             <img src={curriculum} alt="cv" className="w-16 h-16 hover:bg-[#4cf839] duration-300 rounded-lg p-1" />
           </a>
           <p>CV</p>
