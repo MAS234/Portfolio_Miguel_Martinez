@@ -269,6 +269,10 @@ import {
         {
           name: "Figma",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Node.Js",
+          color: "green-text-gradient",
         }
       ],
       image: HoddieP,
