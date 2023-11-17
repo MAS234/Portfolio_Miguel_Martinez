@@ -3,7 +3,7 @@ import {styles} from "../styles";
 // import { ComputersCanvas } from "./canvas";
 // import { useMediaQuery } from 'react-responsive';
 import { useTypewriter, Cursor } from "react-simple-typewriter"; 
-import { astronauta } from "../assets";
+// import { astronauta } from "../assets";
 
 const Hero = () => {
 
