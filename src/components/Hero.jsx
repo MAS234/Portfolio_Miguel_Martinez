@@ -69,9 +69,9 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className="flex justify-end   ">
+      {/* <div className="flex justify-end   ">
         <img src={astronauta} alt="astronauta" className=" floating-astro w-20 m-5 md:mr-20 md:w-36 md:mt-96 mt-[115%] "/>
-      </div>
+      </div> */}
       
     </section>
   )
