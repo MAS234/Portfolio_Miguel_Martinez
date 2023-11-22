@@ -16,7 +16,6 @@ import {
     daira,
     gastos,
     jimo,
-    jimoImagen,
     planificadorGastos,
     climaApp,
     next,
@@ -278,24 +277,6 @@ import {
       image: HoddieP,
       source_code_link: "https://hoddie-desing.vercel.app/",
       vista_code: "https://github.com/MAS234/Hoddie-Desing"
-    },
-    {
-      name: "JIMO",
-      description:
-      "JIMO-OFIICIAL es una sitio web desarrollado para un comercio familiar, es un onepage que provee información sobre los productos que ofrecen en el establecimiento y habla sobre su emprendimiento. Te invito a visitar el sitio web y el código.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jimoImagen,
-      source_code_link: "https://jimo-oficial.vercel.app/",
-      vista_code: "https://github.com/MAS234/JIMO-OFICIAL"
     },
     {
       name: "Control de Gastos",
