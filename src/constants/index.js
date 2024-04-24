@@ -1,8 +1,6 @@
 import {
-    react,
     frontend,
     desing,
-    web,
     javascript,
     typescript,
     html,
@@ -14,20 +12,20 @@ import {
     git,
     figma,
     daira,
-    gastos,
-    jimo,
     planificadorGastos,
-    climaApp,
     next,
-    vite,
-    sass,
     cripto,
     bilingual,
     crazyBeer,
     hoddie,
     HoddieP,
     LogoBilletera,
-    mmGoal
+    mmGoal,
+    GYS,
+    Pescar,
+    swift,
+    mysql,
+    swiftLogo
   
   } from "../assets";
   
@@ -48,15 +46,11 @@ import {
   
   const services = [
     {
-      title: "Desarrollador Web",
-      icon: web,
+      title: "IOS Developer",
+      icon: swiftLogo,
     },
     {
-      title: "React Developer",
-      icon: react,
-    },
-    {
-      title: "Frontend Developer",
+      title: "FullStack Developer",
       icon: frontend,
     },
     {
@@ -95,12 +89,12 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "git",
       icon: git,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
     },
     {
       name: "figma",
@@ -111,53 +105,27 @@ import {
       icon: next,
     },
     {
-      name: "vite",
-      icon: vite,
+      name: "Swift",
+      icon: swift,
     },
     {
-      name: "sass",
-      icon: sass,
+      name: "MySql",
+      icon: mysql,
     }
   ];
   
   const experiences = [
     {
-      title: "React Developer",
-      company_name: "Control de Gastos",
-      icon: gastos,
-      iconBg: "#4F5252",
-      date: "2022",
-      points: [
-        "Desarrollo de proyecto personal Control de Gastos.",
-        "Diseño responsivo con correcta funcionalidad.",
-        "Desarrollado en Vite | React | Figma. ",
-        "Obtención de feedback de otros desarrolladores con objetivo de mejora.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "JIMO",
-      icon: jimo,
-      iconBg: "#cc83fa",
-      date: "2023" ,
-      points: [
-        "Desarrollo y diseño de sitio web responsivo.",
-        "Trabajo de manera Freelancer",
-        "Feedback constructivo y positivo del cliente",
-        "Correcta funcionalidad del sitio y conformidad del cliente",
-      ],
-    },
-    {
       title: "Frontend Developer",
       company_name: "Daira It Groups",
       icon: daira,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFF",
       date: "Abril 2023 - Julio 2023",
       points: [
-        "Desarrollo de soluciones para distintas empresas.",
-        "Desempeño el rol de frontend developer.",
-        "Implementación de metodologías agiles, buena comunicación y constante aprendizaje,",
-        "Trabajo en equipo.",
+        "Desarrollo de aplicaciones.",
+        "Trabajo colaborativo.",
+        "Implementación de metodologías agiles, buena comunicación.",
+        "Crecimiento continuo",
       ],
     },
     {
@@ -167,12 +135,38 @@ import {
       iconBg: "#F98434",
       date: "Julio 2023 - Agosto 2023",
       points: [
-        "Desarrollo de distintas pantallas de la aplicación",
-        "Trabajo con librerías y componentes",
-        "Implementación de metodología agil en su desarrollo(SCRUM)",
+        "Desarrollo del maquetado de la aplicación",
+        "Implementación de distintas tecnologías y librerías",
+        "Implementación de metodología ágil en su desarrollo (SCRUM)",
         "Trabajo en equipo multicultural y buena comunicación",
       ],
     },
+    {
+      title: "FullStack Developer",
+      company_name: "Fundación Pescar - Valtech",
+      icon: Pescar,
+      iconBg: "#FFFF",
+      date: "Agosto 2023 - Enero 2024",
+      points: [
+        "Bootcamp de desarrollo FullStack.",
+        "Entrenamiento de habilidades interpersonales.",
+        "Desarrollo de proyecto final en equipo.",
+        "Beca Google - Data Analytics.",
+      ],
+    },
+    {
+      title: "FullStack Developer",
+      company_name: "Gestion y Servicios",
+      icon: GYS,
+      iconBg: "#FFFF",
+      date: "Enero 2024 - Actualmente",
+      points: [
+        "Desarrollo de sistemas",
+        "Gestión de repositorios GitHub de la empresa",
+        "Trabajo en equipo",
+        "Constante aprendizaje",
+      ],
+    }
   ];
 
   const  projectsDesing = [
@@ -180,7 +174,7 @@ import {
     {
       name: "Bilingual Rabbit",
       description:
-      "Es un diseño de una aplicación y sitio web adaptable. Una aplicación la cual consiste en proponer una forma de estudio en que el usuario pueda ir a su propio ritmo y que se sienta cómodo aprendiendo, la aplicación cuenta con distintos idiomas, también con incentivos o recompensas. Dejo abajo el link a la página del diseño y la prueba en Figma.",
+      "Se trata de un diseño para una aplicación y un sitio web altamente adaptable. La aplicación tiene como objetivo proporcionar a los usuarios una forma de estudio personalizada, permitiéndoles avanzar a su propio ritmo y sentirse cómodos mientras aprenden. Además, ofrece soporte en varios idiomas y proporciona incentivos y recompensas para mantener a los usuarios motivados.",
       tags: [
         {
           name: "Figma",
@@ -194,7 +188,7 @@ import {
     {
       name: "Crazy Beer",
       description:
-        "Es un aplicación con temática Bar-Restaurant, los principales objetivos son que el usuario se sintiera cómodo con la aplicación, que el proceso de pago y de pedido sea rápido y sencillo, pero lo más importante intuitivo, accesible y fácil de utilizar. Dejo abajo el link a la página del diseño y la prueba en Figma.",
+        "Se trata de una aplicación con temática de Bar-Restaurant, diseñada con el objetivo primordial de garantizar la comodidad del usuario. Mi enfoque se centra en hacer que el proceso de pedido y pago sea rápido, sencillo y, sobre todo, intuitivo. El objetivo es que la experiencia sea accesible para todos y que el uso de la aplicación sea fácil y natural.",
       tags: [
         {
           name: "Figma",
@@ -208,7 +202,7 @@ import {
     {
       name: "Hoddie-Desing",
       description:
-        "Hoodie Desing es el diseño de un sitio web adaptable el cual cuenta con personalización en sus buzos y tiene disponible variedad de modelos y accesorios. El objetivo es que el usuario logre tener una buena experiencia con el flujo de la aplicación y logre realizar una compra exitosa. Dejo abajo el link a la pagina del diseño y la prueba en Figma.",
+        "Hoodie Design es un sitio web adaptable especializado en la personalización de buzos, ofreciendo una amplia variedad de modelos y accesorios. Nuestra principal meta es garantizar que los usuarios disfruten de una experiencia fluida al navegar por la aplicación y que puedan realizar compras de manera exitosa.",
       tags: [
         {
           name: "Figma",
@@ -255,7 +249,7 @@ import {
     {
       name: "HODDIE-DESING",
       description:
-      "HODDIE-DESING es un proyecto personal, diseñado y desarrollado por mi, es una tienda personalizada, con diseños exclusivos. Cuenta con una interfaz dinamica, carrito de compras, cards de productos y mucha creatividad.",
+      "Hoodie Design es un proyecto personal creado y desarrollado por mí. Se trata de una tienda especializada en prendas personalizadas con diseños exclusivos. La plataforma cuenta con una interfaz dinámica que incluye un carrito de compras y tarjetas de productos, todo ello diseñado con un toque de creatividad para brindar a los usuarios una experiencia única y atractiva.",
       tags: [
         {
           name: "react",
@@ -281,7 +275,7 @@ import {
     {
       name: "Control de Gastos",
       description:
-      "La aplicación de control de gastos consiste en ingresar un monto inicial de cuanto el usuario tiene disponible para gastar, los gastos en la aplicación se dividen en categorías, las cuales tienen un filtro. La aplicación proporciona información sobre el saldo gastado, el disponible y el porcentaje del saldo en una gráfica.",
+      "La aplicación de control de gastos permite a los usuarios ingresar un monto inicial que represente su presupuesto disponible. Los gastos se registran y organizan en diversas categorías, cada una con su propio filtro para facilitar la gestión. Además, la aplicación ofrece una visión clara del saldo gastado, el disponible y un desglose porcentual del presupuesto a través de una gráfica intuitiva.",
       tags: [
         {
           name: "react",
@@ -298,32 +292,9 @@ import {
 
     },
     {
-      name: "Aplicacion Del Clima",
-      description:
-      "Esta aplicación se desarrolló en Vite, Tailwind y React. Es una aplicación que consulta a una API la información del clima de distintas partes del mundo, cuenta con validaciones donde el usuario tiene que ingresar información válida para que la aplicación pueda mostrarle el clima.Te invito a visitar la aplicación  y el código.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: climaApp,
-      source_code_link: "https://clima-app-peach.vercel.app/",
-      vista_code: "https://github.com/MAS234/ClimaApp"
-
-    },
-    {
       name: "Cotizador de Criptomonedas",
       description:
-      "Es una aplicación que extrae información de una API la cual hace la conversión en tiempo real de la moneda elegida y la criptomoneda elegida. Te invito a visitar la aplicación  y el código.",
+      "Esta aplicación, que emplea una API para obtener datos, se destaca por su capacidad de realizar conversiones en tiempo real entre diferentes monedas y criptomonedas seleccionadas por el usuario. Para ofrecer una experiencia fluida, se implementaron funcionalidades que garantizan la precisión y la rapidez en las conversiones. ",
       tags: [
         {
           name: "react",

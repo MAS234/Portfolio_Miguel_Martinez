@@ -37,9 +37,9 @@ function DiseñoCard({index, name, tags, image, source_code_link, description, v
       
           </div>
       
-          <div className="mt-5">
+          <div className="mt-5 h-52 overflow-hidden hover:h-64 duration-300">
             <h3 className="text-white text-bold text-[24px]">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            <p className="mt-2 text-secondary text-[14px] text-ellipsis">{description}</p>
           </div>
       
           <div className="mt-4 flex flex-wrap gap-2">

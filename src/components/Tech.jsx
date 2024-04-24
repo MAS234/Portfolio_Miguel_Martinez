@@ -14,6 +14,7 @@ const Tech = () => {
               <img
                 src={technology.icon}
                 alt="iconos"
+                title={technology.name}
                 className="h-20 w-20 cursor-pointer rounded-full p-2 hover:shadow-white-100 shadow duration-200"
               />
             )}

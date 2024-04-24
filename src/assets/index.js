@@ -3,7 +3,6 @@ import icono from "./icono2.png"
 import frontend from "./frontend.png"
 import desing from "./desing.png";
 import react from "./react.png"
-import web from "./web.png";
 import github from "./github.png";
 import vista from "./vista.png"
 import menu from "./menu.svg";
@@ -23,20 +22,19 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import next from "./tech/nextjs.png"
-import vite from "./tech/vite.png"
-import sass from "./tech/sass.png"
+import swift from './tech/swift.png'
+import mysql from './tech/mysql.png'
+import swiftLogo from './tech/swiftLogo.png'
 
 //EXPERIENCIA
 import daira from "./company/daira.png"
-import jimo from "./company/JIMO.png"
 import gastos from "./company/ahorro.png"
-import clima from "./company/clima.png"
+import GYS from './company/GYS.png'
+import Pescar from './company/pescar.png'
 
 //PROYECTOS
-import jimoImagen from "./JIMO.png"
 import planificadorGastos from "./app-gastos.png"
 import climaApp from "./Clima.png"
-import veterinaria from "./veterinaria.png"
 import cripto from "./cripto.png"
 import HoddieP from "./hoddie-Portada.png"
 
@@ -61,10 +59,11 @@ import mmGoal from "../assets/MMGOAL.png"
 import astronauta from "../assets/Astronauta.png"
 
 export {
+  Pescar,
+  GYS,
   frontend,
   desing,
   react,
-  web,
   github,
   menu,
   close,
@@ -81,17 +80,12 @@ export {
   typescript,
   threejs,
   daira,
-  jimo,
   gastos,
-  clima,
-  jimoImagen,
   planificadorGastos,
   climaApp,
   next,
-  vite,
-  sass,
+  mysql,
   vista,
-  veterinaria,
   cripto,
   bilingual,
   crazyBeer,
@@ -104,5 +98,7 @@ export {
   billetera,
   astronauta,
   LogoBilletera,
-  mmGoal
+  mmGoal,
+  swift,
+  swiftLogo
 };

@@ -38,8 +38,8 @@ function TrabajosCard({index, name, tags, image, source_code_link, description, 
           </div>
       
           <div className="mt-5">
-            <h3 className="text-white text-bold text-[24px]">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            <h3 className="text-white text-bold text-[24px] ">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px] h-48 overflow-hidden hover:h-52 duration-300">{description}</p>
           </div>
       
           <div className="mt-4 flex flex-wrap gap-2">
